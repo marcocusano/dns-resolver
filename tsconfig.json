@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "declaration": true,
+        "esModuleInterop": true,
+        "noImplicitAny": false,
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "outDir": "./dist",
+        "paths": {
+            "@/*": ["./src/*"]
+        },
+        "strict": true,
+        "target": "ESNext",
+        "types": ["jest"],
+        "typeRoots": ["node_modules/@types"]
+    },
+    "include": ["src/**/*"]
+}

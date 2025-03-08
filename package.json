@@ -1,0 +1,28 @@
+{
+    "name": "dns-resolver",
+    "version": "1.0.0",
+    "author": {
+        "name": "Marco Cusano",
+        "email": "me@marcocusano.dev",
+        "url": "https://www.marcocusano.dev"
+    },
+    "type": "module",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "build": "npm run build:esm",
+        "build:esm": "tsc && tsc-alias",
+        "test": "npm run build && jest --config jest.config.ts"
+    },
+    "dependencies": {
+        "dns-query": "^0.11.2"
+    },
+    "devDependencies": {
+        "@types/jest": "^29.5.14",
+        "jest": "^29.0.0",
+        "ts-jest": "^29.0.0",
+        "ts-node": "^10.9.2",
+        "tsc-alias": "^1.8.11",
+        "typescript": "^5.0.0"
+    }
+}
