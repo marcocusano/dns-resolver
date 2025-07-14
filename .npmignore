@@ -1,0 +1,29 @@
+# Source
+src/
+tests/
+examples/
+
+# Configuration files
+tsconfig.json
+jest.config.ts
+.eslintrc
+.prettierrc
+.editorconfig
+.github/
+.git/
+.gitignore
+.npmrc
+
+# Development files
+node_modules/
+coverage/
+*.log
+*.tgz
+
+# Allow dist folder and package files
+!dist/
+!LICENSE
+!README.md
+!CHANGELOG.md
+!WELLKNOWN.md
+!package.json
